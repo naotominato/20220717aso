@@ -52,5 +52,39 @@
 
 ![er drawio](https://user-images.githubusercontent.com/103915849/179387439-89e638e2-4719-447a-9f26-fab70e32e082.png)
 
+# 環境構築
+### ローカル環境構築　windows(コマンドプロンプト)の場合
+- cd c:\xampp\htdocs
+- git clone https://github.com/naotominato/rese.git
+- cd rese
+- composer install
+- cp .env.example .env (.env内では、DB_DATABASE=　に任意のDBを配置）
+- php artisan key:generate
+- php artisan config:clear
+- php artisan migrate
+- php artisan db:seed
+- php artisan serve
+
 ## その他
-- 各初期データあり： 管理者1名/店舗代表者3名/ユーザー3名/店舗/エリア/ジャンル/予約/お気に入り/店舗評価
+### ○アカウントの種類：　管理者 / 店舗代表者 / ユーザー
+##### 管理者ログイン（１つのアカウントのみ）
+- email
+- password
+##### 店舗管理者ログイン（仙人）
+- email
+- password
+##### 店舗管理者ログイン（牛助）
+- email
+- password
+##### 店舗管理者ログイン（戦慄）
+- email
+- password
+##### ユーザーログイン（阿曽 直人）
+- email
+- password
+##### ユーザーログイン（あそ なおと）
+- email
+- password
+##### ユーザーログイン（アソ ナオト）
+- email
+- password
