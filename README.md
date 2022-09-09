@@ -65,6 +65,9 @@
 - php artisan db:seed
 - php artisan serve
 
+### ローカル環境　タスクスケジュラー　定期メール自動送信（毎朝09:00）
+- php artisan schedule:work
+
 ## その他
 ### ○アカウントの種類：　管理者 / 店舗代表者 / ユーザー
 ##### 管理者ログイン（１つのアカウントのみ）
