@@ -61,7 +61,7 @@
 ![er drawio](https://user-images.githubusercontent.com/103915849/179387439-89e638e2-4719-447a-9f26-fab70e32e082.png)
 
 # 環境構築
-### ローカル環境構築コマンド　windows(コマンドプロンプト)の場合
+### 開発環境構築コマンド　windows(コマンドプロンプト)の場合
 - cd c:\xampp\htdocs
 - git clone https://github.com/naotominato/rese.git
 - cd rese
@@ -73,7 +73,7 @@
 - php artisan db:seed
 - php artisan serve
 
-### ローカル環境　タスクスケジューラー　定期メール自動送信用コマンド（毎朝09:00）
+### 開発環境　タスクスケジューラー　定期メール自動送信用コマンド（毎朝09:00）
 - php artisan schedule:work
 
 ## その他
