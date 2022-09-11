@@ -87,13 +87,13 @@
 - email:    admin@example.com
 - password: 12345678
 ##### 店舗管理者（店舗：仙人）
-- email:    user1@example.com
+- email:    manager1@example.com
 - password: 12345678
 ##### 店舗管理者（店舗：牛助）
-- email:    manager1@example.com
+- email:    manager2@example.com
 - password: 12345678
 ##### 店舗管理者（店舗：戦慄）
-- email:    manager1@example.com
+- email:    manager3@example.com
 - password: 12345678
 ##### ユーザー（阿曽 直人）
 - email:    user1@example.com
