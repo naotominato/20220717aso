@@ -51,7 +51,6 @@
 ## 使用技術（実行環境）
 - Laravel Framework 8.83.23
 - jQuery 3.6.0 (CDN 経由)
-- 
 
 ## テーブル設計
 
