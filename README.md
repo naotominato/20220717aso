@@ -28,7 +28,7 @@
 - 会員登録
 - ログイン / ログアウト
 - 店舗一覧表示（条件検索あり）
-- お気に入り店舗　【登録 / 削除】
+- お気に入り店舗　【登録 / 削除】【Home画面では、画面の更新をせずに切替が可能（非同期処理）】
 - 店舗詳細画面あり（予約可）
 - Mypage 予約【今後の予約確認 / 日時変更 / 削除 / 過去の予約確認 / 店舗評価 / 当日の予約確認 / QRコード発行 / 決済機能】
 - Mypage お気に入り登録済み店舗 【一覧確認 / 削除】
@@ -66,7 +66,7 @@
 - git clone https://github.com/naotominato/rese.git
 - cd rese
 - composer install
-- cp .env.example .env (.env内では、DB_DATABASE=　に任意のDBを配置）
+- cp .env.example .env 　(.env内では、DB_DATABASE=""に任意のDBを配置）
 - php artisan key:generate
 - php artisan config:clear
 - php artisan migrate
@@ -78,24 +78,25 @@
 
 ## その他
 ### ○アカウントの種類：　管理者 / 店舗代表者 / ユーザー
-##### 管理者ログイン（１つのアカウントのみ）
+#### 下記、初期データ（各ログイン情報）
+##### 管理者（１つのアカウントのみ）
 - email:    admin@example.com
 - password: 12345678
-##### 店舗管理者ログイン（仙人）
+##### 店舗管理者（店舗：仙人）
 - email:    user1@example.com
 - password: 12345678
-##### 店舗管理者ログイン（牛助）
+##### 店舗管理者（店舗：牛助）
 - email:    manager1@example.com
 - password: 12345678
-##### 店舗管理者ログイン（戦慄）
+##### 店舗管理者（店舗：戦慄）
 - email:    manager1@example.com
 - password: 12345678
-##### ユーザーログイン（阿曽 直人）
+##### ユーザー（阿曽 直人）
 - email:    user1@example.com
 - password : 12345678
-##### ユーザーログイン（あそ なおと）
+##### ユーザー（あそ なおと）
 - email:    user2@example.com
 - password: 12345678
-##### ユーザーログイン（アソ ナオト）
+##### ユーザー（アソ ナオト）
 - email:    user3@example.com
 - password: 12345678
